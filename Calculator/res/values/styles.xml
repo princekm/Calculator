@@ -1,0 +1,46 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowFullscreen">true</item>
+ <!--              <item name="android:windowNoTitle">true</item> -->
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- Application button  theme. -->
+    <style name="button1">
+         <item name="android:layout_width">0dp</item>
+            <item name="android:layout_weight">25</item>
+            <item name="android:layout_height">match_parent</item>
+            <item name="android:background">@drawable/button1</item>
+            <item name="android:textColor">@color/white</item>
+            <item name="android:textSize">29dp</item>
+            <item name="android:onClick">getKey</item>
+    </style>
+         <!-- Application edittext theme. -->
+         <style name="display">
+     
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">15</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">5dp</item>      
+        <item name="android:gravity">right</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">38dp</item>
+    </style>
+
+</resources>

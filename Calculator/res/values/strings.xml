@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string-array name="calc_head">
+        <item>View History</item>
+        <item>Clear History</item>
+        <item>Sound</item>
+        <item>Vibration</item>
+    </string-array>
+   	 <string-array name="calc_desc">
+        <item>Click to view the history.</item>
+        <item>Click to clear entire history.</item>
+        <item>Click to enable/disable sound.</item>
+        <item>Click to enable/disable vibration.</item>
+    </string-array> 
+    <string-array name="info_head">
+        <item>About</item>
+        <item>Developer</item>
+        <item>Rate Us</item>
+    </string-array>
+	<string-array name="info_desc">
+        <item>This is a simple calculator.</item>
+        <item>"Prinz ,prince.k.m.005@gmail.com"</item>
+        <item>Support us by rating this application</item>
+    </string-array>
+    <string name="title_activity_history">History</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
