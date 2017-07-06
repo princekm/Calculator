@@ -5,6 +5,7 @@ import com.newgen.calculator.R;
 import com.newgen.helper.Prefs;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,6 +33,7 @@ public class Adapter<String> extends ArrayAdapter<String> {
 	    View row = inflater.inflate(R.layout.row, parent, false);
 	    TextView textView = (TextView) row.findViewById(R.id.label);
 	    textView.setText(""+values[position]);
+		textView.setTextColor(Color.WHITE);
 	    String s = values[position];	    
 	    TextView descView=(TextView) row.findViewById(R.id.desc);
 	    descView.setText(""+desc[position]);
